@@ -1,0 +1,47 @@
+
+
+body{
+    text-align: center;
+    background-color: azure;
+}
+h1{
+    color: rgb(116, 114, 113);
+}
+
+#container{
+    color: rgb(111, 109, 106);
+    width: 450px;
+    height: 290px;
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 220px;
+    border-radius: 10%;
+    margin-top: 120px;
+    background-color: beige;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 4px 5px 10px rgb(113, 96, 96);
+}
+
+#billamount{
+    width: 250px;
+    padding: 4px;
+    box-shadow: 5px 5px 10px rgb(208, 180, 180);
+    border-radius: 5%;
+}
+#percentageamount{
+    width: 250px;
+    padding: 4px;
+ box-shadow: 5px 5px 10px rgb(208, 180, 180);
+    border-radius: 5%;
+}
+button{
+    color: rgb(240, 242, 245);
+    padding: 5px;
+    width: 250px;
+    border-radius: 5%;
+    box-shadow: 5px 6px 10px sold rgb(169, 178, 51);
+    background-color: rgb(6, 171, 11);
+}
+button:hover{
+    background-color: rgb(15, 238, 15);
+}
