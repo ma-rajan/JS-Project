@@ -1,0 +1,64 @@
+body{
+    background-color: bisque;
+}
+#container{
+    border-radius: 5%;
+    align-items: center;
+    text-align: center;
+    width: 450px;
+    height: 350px;
+    border:2px solid rgb(80, 190, 146);
+    margin-left: 240px;
+    margin-top: 150px;
+    background-color: hsl(10, 11%, 89%);
+    font-family: monospace;
+    box-shadow: 4px 5px 10px rgb(143, 168, 174);
+}
+h2{
+    color: rgb(101, 99, 99);
+}
+#lblfirst{
+
+     font-size: 15px;
+    padding-right: 80px;
+    color: rgb(93, 90, 90);
+}
+
+
+#lblthird{
+    font-size: 15px;
+    padding-right: 88px;
+    color: rgb(93, 90, 90);
+}
+#lblsecond{
+    padding-right: 65px;
+        color: rgb(93, 90, 90);
+}
+#second,#third{
+    background-color: aliceblue;
+    padding: 3px;
+        padding-left: 15px;
+
+  
+}
+#first{
+    background-color: aliceblue;
+    padding: 3px;
+    padding-left: 15px;
+}
+button{
+    padding: 4px;
+    background-color: rgb(92, 183, 202);
+    border-radius: 5%;
+    box-shadow: 2px 4px 5px rgba(4, 67, 226, 0.725);
+    color: rgb(50, 50, 51);
+    margin-left: 80px;
+    margin-top: 15px;
+}
+button:hover{
+    background-color: rgb(13, 129, 223);
+}
+#result{
+    color: rgb(84, 84, 84);
+    
+}
