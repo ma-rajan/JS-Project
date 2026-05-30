@@ -1,0 +1,28 @@
+.container2{
+    width: 550px;
+    color: white;
+    height: 150px;
+    border: 2px solid black;
+    text-align: center;
+    padding-top: 60px;
+    border-radius: 30px;
+    box-shadow: 2px 5px 6px;
+    background-color: rgb(132, 189, 189);
+    
+}
+
+.container1 img{
+    
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    top: 55px; 
+    left: 30%;
+    margin-left: -90px;
+    border: 3px solid white;
+}
+#main1{
+    margin-left: 150px;
+}
