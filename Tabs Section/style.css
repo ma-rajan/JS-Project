@@ -1,0 +1,51 @@
+.parent1{
+    display: flex;
+}
+.container img{
+    width: 350px;
+    margin-top: 35px;
+
+}
+.container{
+        margin-top: 70px;
+        margin-left: 70px;
+        border: 2px solid rgb(164, 147, 147);
+       border: none;
+       width: 400px;
+       height: 250px;
+       text-align: center;
+    border-radius: 15px;
+    box-shadow: 2px 2px 1px 1px rgb(184, 181, 188);   
+}.content{
+    display: flex;
+    flex-wrap: wrap;   /* IMPORTANT: allows next line */
+    
+    margin-top: 70px;
+    margin-left: 70px;
+    border: 2px solid rgb(164, 147, 147);
+    width: 400px;
+    height: 250px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 1px 1px rgb(184, 181, 188);
+
+    gap: 10px;
+}
+
+.header1{
+    background-color: lightblue;
+    padding: 10px 15px;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+.header1 #first h4{
+    background-color: aqua;
+}
+
+/* make paragraph go full next line */
+.express{
+    flex-basis: 100%;   /* forces new line */
+    background-color: lightcoral;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 8px;
+}
