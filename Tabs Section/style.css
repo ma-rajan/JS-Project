@@ -18,7 +18,7 @@
     box-shadow: 2px 2px 1px 1px rgb(184, 181, 188);   
 }.content{
     display: flex;
-    flex-wrap: wrap;   /* IMPORTANT: allows next line */
+    flex-wrap: wrap;   
     
     margin-top: 70px;
     margin-left: 70px;
@@ -41,9 +41,8 @@
     background-color: aqua;
 }
 
-/* make paragraph go full next line */
 .express{
-    flex-basis: 100%;   /* forces new line */
+    flex-basis: 100%;  
     background-color: lightcoral;
     padding: 2px;
     margin: 2px;
