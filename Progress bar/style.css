@@ -1,0 +1,49 @@
+.container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap:20px
+}
+.container .content{
+    display: flex;
+
+}
+.container a{
+    text-decoration: none;
+    color: rgb(89, 82, 82);
+
+}
+.controler {
+  
+    align-items: center;
+    display: flex;
+    justify-content: center;
+   margin-top: 20px;
+    gap: 45px;
+}
+
+.controler button{
+    width: 100px;
+    height: 25px;
+    box-shadow: 1px 2px 10px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 7px;
+    text-align: center;
+    color: rgb(83, 80, 80);
+    cursor: pointer;
+}
+.controler button:hover{
+    color: black;
+    background-color: rgb(128, 119, 119);
+}
+
+.content{
+   text-align: center;
+    border-radius: 12%;
+    border:2px solid black
+    
+}
+
+h2{
+    color: rgb(108, 95, 95);
+}
