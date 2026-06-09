@@ -1,0 +1,27 @@
+#menu-btn {
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(165, 159, 159);
+}
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px; 
+    width: 250px;
+    height: 100vh;
+    background: #222;
+    padding-top: 20px;
+    transition: 0.3s;
+}
+#sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+#sidebar a:hover {
+    background: #444;
+}
+#sidebar.active {
+    left: 0; 
+}
