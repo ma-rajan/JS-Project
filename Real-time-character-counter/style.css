@@ -1,0 +1,29 @@
+.container{
+    border:2px solid rgb(94, 89, 89);
+    width: 25rem;
+    height: 20rem;
+    text-align: center;
+    color: rgb(85, 82, 82);
+    border-radius: 15px;
+    box-shadow: 0px 2px 15px rgb(71, 65, 65);
+}
+
+.content textarea{
+    height: 6rem;
+    width: 19rem;
+}
+.charactercount {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#maxcharacter{
+    color: red;
+    font-weight: bold;
+}
+#totalcharacter{
+    font-weight: bold;
+    color: rgba(232, 23, 12, 0.646);
+}
