@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(247, 249, 234);
+}
+h2{
+    text-align: center;
+    color: rgb(69, 68, 68);
+
+}
+#container img{
+    width: 37rem;
+   display: flex;
+   padding: 9px 5px;
+    
+}
+#container{
+   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+#loadcontent{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 27px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 55rem;
+    border-radius: 10px;
+    background-color: rgb(217, 134, 9);
+}
+#loadcontent:hover{
+    background-color: burlywood;
+}
