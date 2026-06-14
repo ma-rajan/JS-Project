@@ -1,0 +1,33 @@
+.container{
+    border: 2px solid black;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10px;
+    box-shadow: 0px 1px 14px;
+    margin: 70px;
+}
+.container #emoji{
+    border: 2px solid black;
+    width: 10rem;
+    height: 10rem;
+    margin-left: 70px;
+    margin-top: 22px;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px;
+
+}
+.container #generator{
+    margin-top: 20px;
+    margin-left: 98px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: bisque;
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(111, 131, 40);
+}
+.container #generator:hover{
+    background-color: rgb(26, 221, 42);
+}
+ 
