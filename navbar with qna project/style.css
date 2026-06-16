@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container img{
+    width: 30px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+   
+    margin: 10px 15px;
+}
+.container .first a{
+    text-decoration: none;
+    color: rgb(112, 111, 111);
+}
+.container .first a:hover{
+    color: black;
+}
+.container .first{
+    display: flex;
+    gap: 3rem;
+    
+}
+.search #searchho{
+    width: 20px;
+    border: none;
+    box-shadow: none;
+}
+.search{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    height: 20px;
+}
+.search #search{
+    border: 2px solid rgb(152, 141, 141);
+    outline: none;
+    position: absolute;
+}   
+#searchho{
+    position: relative;
+    margin-left: 131px;
+    cursor: pointer;
+}
+#searchho:hover{
+    background-color: aqua;
+   
+}
+
+/* message.html css */
+.contaienr1,.container2, .container3 {
+    border: 1px solid black;
+    min-height: 5rem;
+    width: 23rem;
+    text-align: center;
+    margin: 2rem 10rem;
+    
+    
+}
+h4{
+    margin-left: 7rem; 
+    color: rgb(143, 216, 26);
+}
+
+.contaienr1 img{
+    width: 20px;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+.container3 img{
+    width: 20px;
+       margin-right: 2rem;
+       cursor: pointer;
+ 
+}
+.container2 img{
+    width: 20px;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+.contaienr1,.container2,.container3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#text{
+    display: none;
+}
