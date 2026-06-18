@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(204, 212, 91);
+}
+.container{
+    background-color: rgb(145, 191, 77);
+    border: 2px solid rgb(227, 222, 222);
+    text-align: center;
+    margin: 4rem 4rem;
+    padding-bottom: 2rem;
+    box-shadow: 0px 2px 10px rgb(142, 140, 138);
+}
+.container h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(80, 76, 76);   
+}
+.container h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(128, 122, 122);
+}
+.container #enternum{
+    width: 3.4rem;
+    height: 1.6rem;
+    font-size: 19px;
+    text-align: center;
+}
+.container button{
+    background-color: rgb(61, 59, 59);
+    color: beige;
+    width: 7rem;
+    height: 2.1rem;
+    border-radius: 8%;
+    box-shadow: 0px 2px 14px;
+    cursor: pointer;
+}
+.container button:hover{
+    background-color: green;
+}
+
+#images{
+    margin: 3rem 3rem;
+}
