@@ -1,0 +1,32 @@
+.container h1,p{
+        text-align: center;
+}
+.container h1{
+    color: blue;
+
+}
+
+.container p{
+    color: rgb(110, 110, 193);
+}
+#box{
+    border: 1px solid rgb(82, 78, 78);
+    height: 10rem;
+    width: 15rem;
+    border-radius: 10%;
+    box-shadow: 0px 1px 10px rgb(130, 125, 125);
+    cursor: pointer;
+    margin: 15px 25px;
+}
+#box:hover{
+    background-color: rgb(209, 209, 215);
+}
+#box span{
+    font-size: 8rem;
+    color: rgb(125, 119, 119);
+    margin-left: 5rem;
+}
+
+#box span:hover{
+   color: black;
+}
