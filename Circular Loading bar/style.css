@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+.conatiner{
+    color: white;
+}
+#borders{
+    width: 250px;
+    height: 250px;
+    border: 2px solid white;
+    transition: border 0.2s 2px rgba(8, 188, 23, 0.742);
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+#num{
+    font-size: 3rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 6rem;
+}
+
